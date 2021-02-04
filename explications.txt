@@ -1,0 +1,24 @@
+Nous avons telecharger un code via internet qui s'appelle face-mask-detector.
+https://www.pyimagesearch.com/2018/02/26/face-detection-with-opencv-and-deep-learning/
+Notre dataset contient 1100 images.
+On y trouve plusieurs parties:
+la partie dataset  avec les images :with_mask et without_mask puis une partie examples avec 6 images.
+1 ere partie python:
+detect_mask_image.py
+2eme partie python:
+detect_video.py
+3 eme partie python:
+train_mask_detector.py,c'est notre modele d'apprentissage.
+
+Dans le prompt copier le lien emplacement du fichier:
+cd C:\Users\utilisateur\Google Drive\masques\face-mask-detector
+puis:(choisir l'image voulue)
+python detect_mask_image.py --image examples/example_01.png.
+
+Pour la video:
+meme commande que pour la detection avec image :
+python detect_video.py
+
+J'ai rajouter un message vocale ,pour avertissement si le modele ne detecte pas de masque mais ca ne fonctionne pas.
+
+Les images smiley et le message enregistré se trouve dans la partie examples.
